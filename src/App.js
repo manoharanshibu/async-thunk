@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.props.data)
+    console.log(this.props.data);
     return (
       <div className="container"> 
         <form onSubmit={this.handleSubmit} >
